@@ -1,10 +1,10 @@
 // task1
-// let x = 1;
-// let y = 2;
+let x = 1;
+let y = 2;
 
-// let res1 = ++x * (++x + ++y) + "";
-// console.log(res1);
-// console.log(typeof res1);
+let res1 = ++x * (++x + ++y) + "";
+console.log(res1);
+console.log(typeof res1);
 
 // let res2 = ((x != y) + `${y}`);
 // console.log(res2);
