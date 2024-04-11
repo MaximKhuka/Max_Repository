@@ -95,10 +95,10 @@ console.log(test2);
 
 // *** task7 ***
 
-// var body = document.createElement('body');
-// var main = document.createElement('main');
-// var div = document.createElement('div');
-// var paragraph = document.createElement('p');
+// let body = document.createElement('body');
+// let main = document.createElement('main');
+// let div = document.createElement('div');
+// let paragraph = document.createElement('p');
 
 // main.className = 'mainClass check item';
 // div.id = 'myDiv';
