@@ -6,7 +6,7 @@ function getPromise(message, delay) {
             resolve(message);
         }, delay);
     });
-}
+};
 
 getPromise("test promise", 2000).then(function(data) {
         console.log(data);
@@ -27,10 +27,10 @@ function calcArrProduct(arr) {
             if (Number(product)) {
                 resolve(product);
             } else {
-                let error = new Error ("Error! Incorrect array!")
+                let error = new Error ("Error! Incorrect array!");
                 reject(error);
             }
-    });
+    })
 }
 
 calcArrProduct([3, 4, 5]).then(result => console.log(result)); // 60
@@ -54,8 +54,8 @@ function showNumbers() {
         return chain.then(() => {
             return element.then(result => {
                 console.log(result);
-            });
-        });
+            })
+        })
     }, Promise.resolve());
 
     return promiseChain;
@@ -73,14 +73,14 @@ let delay777 = (i, time) => new Promise (resolve => setTimeout(() => resolve(i),
 let delayArray777 = [];
 async function showNumbers() {
     for (let i = 0; i < 10; i++) {
-        delayArray777.push(delay777(i, (Math.floor(Math.random() * (5000 - 2000)))))
+        delayArray777.push(delay777(i, (Math.floor(Math.random() * (5000 - 2000)))));
     }
         for (element of delayArray777) {
             let result = await element;
-            console.log(result) 
+            console.log(result);
         }
 }
-showNumbers()
+showNumbers();
 
 
 
