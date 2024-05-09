@@ -4,7 +4,7 @@
   "description": "Practice task",
   "main": "homework_10.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx mocha test.js --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/MaximKhuka/Max_Repository#readme",
   "dependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.20.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
   }
 }
