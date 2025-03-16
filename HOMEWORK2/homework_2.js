@@ -1,55 +1,55 @@
 // task1
-// let x = 1;
-// let y = 2;
+let x = 1;
+let y = 2;
 
-// let res1 = ++x * (++x + ++y) + "";
-// console.log(res1);
-// console.log(typeof res1);
+let res1 = ++x * (++x + ++y) + "";
+console.log(res1);
+console.log(typeof res1);
 
-// let res2 = ((x != y) + `${y}`);
-// console.log(res2);
-// console.log(typeof res2);
+let res2 = ((x != y) + `${y}`);
+console.log(res2);
+console.log(typeof res2);
 
-// let res3 = (x <= y);
-// console.log(res3);
-// console.log(typeof res3);
+let res3 = (x <= y);
+console.log(res3);
+console.log(typeof res3);
 
-// let res4 = ((x + y)*"y");
-// console.log(res4);
-// console.log(typeof res4);
+let res4 = ((x + y)*"y");
+console.log(res4);
+console.log(typeof res4);
 
 
 
 // task2
-// let _number = prompt("Please, enter a number");
-// let res = _number >= 0 && _number % 2 == 0;
-// console.log("a)", res);
-// let res2 = _number % 7 == 0;
-// console.log("b)", res2);
+let _number = prompt("Please, enter a number");
+let res = _number >= 0 && _number % 2 == 0;
+console.log("a)", res);
+let res2 = _number % 7 == 0;
+console.log("b)", res2);
 
 
 
 // task3
-// const arr = [999, "London", true, null];
-// alert(arr.length);
-// let quest = prompt("Do you like JavaScript?");
-// arr[5] = quest;
-// alert(arr[5]);
-// arr.shift(999);
-// alert(arr);
+const arr = [999, "London", true, null];
+alert(arr.length);
+let quest = prompt("Do you like JavaScript?");
+arr[5] = quest;
+alert(arr[5]);
+arr.shift(999);
+alert(arr);
 
 
 
 // task4
-// let cities = ["Rome", "Lviv", "Warsaw"];
-// alert(cities.join('*'));
+let cities = ["Rome", "Lviv", "Warsaw"];
+alert(cities.join('*'));
 
 
 
 // task5
-// let isAdult = prompt("What is your age?");
-// let res = (isAdult >= 18) ? "You are an adult" : "You are too young";
-// alert(res);
+let isAdult = prompt("What is your age?");
+let res = (isAdult >= 18) ? "You are an adult" : "You are too young";
+alert(res);
 
 
 
