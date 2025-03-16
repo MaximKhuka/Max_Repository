@@ -13,8 +13,8 @@ console.log(test2);
 
 // *** task2 ***
 
-// let pic = document.getElementsByClassName("image").src = "cat.jpg";
-// alert(pic);
+let pic = document.getElementsByClassName("image").src = "cat.jpg";
+alert(pic);
 
 
 
@@ -22,10 +22,10 @@ console.log(test2);
 
 // *** task3 ***
 
-// var paragraphs = document.querySelectorAll('#text p');
-// paragraphs.forEach(function(paragraph, index) {
-//     console.log("Selector text " + index + ": " + paragraph.textContent);
-// });
+var paragraphs = document.querySelectorAll('#text p');
+paragraphs.forEach(function(paragraph, index) {
+    console.log("Selector text " + index + ": " + paragraph.textContent);
+});
 
 
 
@@ -33,19 +33,19 @@ console.log(test2);
 
 // *** task4 ***
 
-// let list1 = document.getElementById('list');
+let list1 = document.getElementById('list');
 
-// alert((list1.children[0].innerHTML));
-// alert((list1.children[4].innerHTML));
-// alert((list1.children[1].innerHTML));
-// alert((list1.children[3].innerHTML));
-// alert((list1.children[2].innerHTML));
+alert((list1.children[0].innerHTML));
+alert((list1.children[4].innerHTML));
+alert((list1.children[1].innerHTML));
+alert((list1.children[3].innerHTML));
+alert((list1.children[2].innerHTML));
 
-// alert(list.firstElementChild.innerHTML);
-// alert(list.lastElementChild.innerHTML);
-// alert(list.firstElementChild.nextElementSibling.innerHTML);
-// alert(list.lastElementChild.previousElementSibling.innerHTML);
-// alert(list.lastElementChild.previousElementSibling.previousElementSibling.innerHTML);
+alert(list.firstElementChild.innerHTML);
+alert(list.lastElementChild.innerHTML);
+alert(list.firstElementChild.nextElementSibling.innerHTML);
+alert(list.lastElementChild.previousElementSibling.innerHTML);
+alert(list.lastElementChild.previousElementSibling.previousElementSibling.innerHTML);
 
 
 
@@ -53,22 +53,22 @@ console.log(test2);
 
 // *** task5 ***
 
-// let header1 = document.querySelector('h1').style.backgroundColor = "lightGreen";
+let header1 = document.querySelector('h1').style.backgroundColor = "lightGreen";
 
-// let paragraph1 = document.getElementById('myDiv');
-// let pp2 = paragraph1.children[0].style.fontSize = "20px";
-// let pp1 = paragraph1.children[0].style.fontWeight = "bold";
-// let pp3 = paragraph1.children[1].style.fontSize = "20px";
-// let pp4 = paragraph1.children[1].style.color = "red";
-// let pp5 = paragraph1.children[2].style.fontSize = "20px";
-// let pp6 = paragraph1.children[2].style.textDecoration = "underline";
-// let pp7 = paragraph1.children[3].style.fontSize = "20px";
-// let pp8 = paragraph1.children[3].style.fontStyle = "italic";
+let paragraph1 = document.getElementById('myDiv');
+let pp2 = paragraph1.children[0].style.fontSize = "20px";
+let pp1 = paragraph1.children[0].style.fontWeight = "bold";
+let pp3 = paragraph1.children[1].style.fontSize = "20px";
+let pp4 = paragraph1.children[1].style.color = "red";
+let pp5 = paragraph1.children[2].style.fontSize = "20px";
+let pp6 = paragraph1.children[2].style.textDecoration = "underline";
+let pp7 = paragraph1.children[3].style.fontSize = "20px";
+let pp8 = paragraph1.children[3].style.fontStyle = "italic";
 
-// let lis = document.getElementById('myList');
-// lis.innerHTML = "Makemehorizontal!";
+let lis = document.getElementById('myList');
+lis.innerHTML = "Makemehorizontal!";
 
-// let spa = document.querySelector('span').style.color = "transparent";
+let spa = document.querySelector('span').style.color = "transparent";
 
 
 
@@ -76,18 +76,18 @@ console.log(test2);
 
 // *** task6 ***
 
-// let info1 = prompt("Please, enter your name");
-// let info2 = prompt("Please, enter your surname");
+let info1 = prompt("Please, enter your name");
+let info2 = prompt("Please, enter your surname");
 
-// let f1Val = document.getElementById('input1').value;
-// input1.value = info1;
+let f1Val = document.getElementById('input1').value;
+input1.value = info1;
 
-// let f2Val = document.getElementById('input2').value;
-// input2.value = info2;
+let f2Val = document.getElementById('input2').value;
+input2.value = info2;
 
-// info1 = document.getElementById('input1').value;
-// input2.value = info1;
-// input1.value = info2;
+info1 = document.getElementById('input1').value;
+input2.value = info1;
+input1.value = info2;
 
 
 
@@ -95,15 +95,15 @@ console.log(test2);
 
 // *** task7 ***
 
-// let body = document.createElement('body');
-// let main = document.createElement('main');
-// let div = document.createElement('div');
-// let paragraph = document.createElement('p');
+let body = document.createElement('body');
+let main = document.createElement('main');
+let div = document.createElement('div');
+let paragraph = document.createElement('p');
 
-// main.className = 'mainClass check item';
-// div.id = 'myDiv';
-// paragraph.textContent = 'First paragraph';
-// div.appendChild(paragraph);
-// main.appendChild(div);
-// body.appendChild(main);
-// document.documentElement.appendChild(body);
+main.className = 'mainClass check item';
+div.id = 'myDiv';
+paragraph.textContent = 'First paragraph';
+div.appendChild(paragraph);
+main.appendChild(div);
+body.appendChild(main);
+document.documentElement.appendChild(body);
