@@ -31,12 +31,11 @@ console.log(arrProduct);
 
 // task2
 let n = 15;
-for (let i = 0; i < n; i++) {
-    (i % 2 === 0) 
-    console.log(`${i} is even`);
-    i++;
-    (i % 2 != 0) 
-    console.log(`${i} is odd`);
+for (let i = 0; i <= n; i++) {
+    if (i % 2 === 0) 
+        console.log(`${i} is even`);
+    if (i % 2 != 0) 
+        console.log(`${i} is odd`);
 }
 
 
