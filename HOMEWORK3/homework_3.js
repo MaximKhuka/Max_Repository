@@ -44,21 +44,21 @@ for (let i = 0; i <= n; i++) {
 function randArray(k) {
     let res = [];
     for (let i = 0; i < k; i++) {
-        res.push(Math.round(Math.random() * 500) + 1);
+        res.push(Math.floor(Math.random() * 500) + 1);
+    }
+    return res;
 }
-return res;
-}
-console.log("randArray(5):" + randArray(5));
+console.log(randArray(5));
 
 
 
 // task4
 function raiseToDegree(a,b) {
-    return Math.pow(a,b);
+    return a ** b;
 }
 
-let a = +prompt("Please, enter a number");
-let b = +prompt("Enter the power of the number");
+const a = +prompt("Please, enter a number");
+const b = +prompt("Enter the power of the number");
 
 if (Number.isInteger(a) && Number.isInteger(b)) {
     alert(`${a} in the power of ${b} = ${raiseToDegree(a,b)}`);
@@ -69,34 +69,22 @@ if (Number.isInteger(a) && Number.isInteger(b)) {
 
 
 // task5
-function findMin() {
-    let min = arguments[0];
-    for (let i = 1; i < arguments.length; i++) {
-        if (arguments[i] < min) {
-            min = arguments[i];
+function findMin(...args) {
+    let min = args[0];
+    for (let i = 1; i < args.length; i++) {
+        if (args[i] < min) {
+            min = args[i];
         }
     }
     return min;
 }
-alert(findMin(22, 40, 555, 7.4, 777));
+alert(findMin(12, 14, 4, -4, 0.2));
 
 
 
 // task6
 function findUnique(arr) {
-    let res = true;
-    for (let i = 0; i < arr.length; i++) {
-      let l = arr[i];
-      for (let m = 0; m < arr.length; m++) {
-        if (i === m) {
-          continue;
-        }
-        if (l === arr[m]) {
-          res = false;
-        }
-      }
-    }
-    return res;
+   return new Set(arr).size === arr.length;
 }
   console.log(findUnique([1, 2, 3, 5, 3]));
   console.log(findUnique([1, 2, 3, 5, 11]));
